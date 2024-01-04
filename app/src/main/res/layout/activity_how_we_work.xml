@@ -1,0 +1,1799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/teal_700"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="How We Work"
+            app:titleTextColor="@color/white" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Business Policy"
+                    android:textAppearance="?attr/textAppearanceHeadline5"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='We all know Henry Ford. Famous businessman and industrialist owning the automobile company Ford. In one of his speeches, he said "Coming together is a beginning. Keeping together is progress. Working together is a success".'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='It is very true a thought. In this world, we can never do anything single-handed. A team is required. Don’t forget that even for your education, a team worked for you. The team was of your parents, teachers, elder siblings, tutors, and caretakers. '
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='A successful business is always the result of dedicated teamwork. Teamwork involves different people and different groups across your business working together to maximize their efficiency and reach a common goal.'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='Teamwork helps in Network Marketing in ways like – \n
+a. Helps you address big groups \n
+b. Your level in the business increases \n
+c. Many brains together can bring new ideas \n
+d. Collectively, big tasks also seem small \n
+e. You will see a bigger picture with enhanced output \n
+f. You can Earn more...!'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='picture and present insight into our business process. All details are disclosed in detail for ease of your understanding.'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Registration Amount"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Plan Name"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Amount"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="A"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B92000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="B"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B95000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="C"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B910000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                </TableLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Premium Plan"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='a. To be a member of our plan, you are needed to pay a one-time membership registration charge. \n
+b.	On your payment, Company will generate a Unique Identification ID against your credentials. \n
+c.  This Unique ID will be used throughout your association with the Company for tracking your performance, tracking your referral chains, and processing payments. \n'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Registration Details"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text=' We need some details for your registration. Following are those- \n
+a. Your Name \n
+b.	Your Mobile Number \n
+c.	Your Email ID \n
+d.	Your Bank Details supported by proof \n\n
+Once you provide the required details and the Registration Amount –\n
+1.	Your profile will get activated by the admin within 24 hours.\n
+2.	Details of ID activation and your login details will be sent to your registered mobile number.\n
+3.	Only Admin has the discretion to do modifications to your account which will be communicated via email.\n
+'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Income"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='The program has three types of income namely \n
+a. Referral Income \n b. Business Income \n c. Bonus Income'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="a. Referral Income: "
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='This income is earned by the customer when he or she refers someone to
+join the person and it happens. This income is received as the First Time Bonus and varies
+according to the level of the referrer.'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Procedure and Criteria for Referral Income "
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='
+Identify your level: To have a clear understanding
+as what will be your referral income, you must have
+a clear understanding about our level policy. \n
+Suppose you refer a candidate X directly under
+you. Then the candidate for you will be at level 1. If
+candidate X refers a candidate Y under him or her,
+then candidate Y will be at level 2 for you but at
+level 1 for candidate X. Again if candidate Y refers
+a candidate Z under him/her, then candidate Z will
+be at Level 3 for you, at Level 2 for X and Level 1
+for Y.'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='It must be noted that you cannot make anyone join at Level 2 or 3 directly under you. It will be the
+members who have joined you at Level 1 who will be responsible of growing the network. Like in the
+example, it is Member X who can form your Level 2 by joining members under him/her and Member
+Y can form your Level 3. As an individual, you can form your Level 1.'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Plan"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="L1"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="L2"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="L3"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="L4"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="A"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9400"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9300"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9200"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9100"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="B"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B91000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9750"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9500"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9250"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="C"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B92000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B91500"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B91000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9500"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="b. Monthly Income: "
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='This is another form of income which you can generate from our system apart
+from the Referral Income.'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Procedure and Criteria for Monthly Income "
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='You can earn from only once from your reference. That is the referral bonus or earning we
+discussed above. Company gives you the opportunity to earn every month from the candidate you
+refer under you. Not only that, you will be earning monthly from each and every candidate your
+down-line refers apart from the referral income.'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='You should note that there is no limit of referring candidates under you and as per their
+performance, levels under you will increase. You cannot place any candidate directly at any level
+under you as per your wish.'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Plan"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="L1"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="L2"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="L3"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="L4"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="A"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B916"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B98"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B94"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B92"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="B"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B940"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B920"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B910"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B95"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="C"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B980"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B940"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B920"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B910"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="c. Bonus Income: "
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='Bonus amount is paid to a customer when the referral of the customer joins another person in the
+group. The more number of referrals get associated in each link hand of the customer, the more will
+be the bonus. The bonus is paid with the monthly payout of the customer. \n \n
+There are two types of bonus,\n
+1.  Monthly Bonus
+2.  Level Achievement Bonus.'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Monthly Bonus "
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='This bonus is paid after observing the monthly performance of the customer. This
+bonus is paid along with the monthly payout of the customer after checking through from 1st to 31st
+of every month.'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Rank"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="IDs in \neach level"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Plan A"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Plan B"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Plan C"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Bronze"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="10"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B94000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B910000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B920000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Silver"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="20"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B910000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B925000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B950000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Gold"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="50"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B920000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B950000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9100000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Diamond"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="75"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B930000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B975000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9150000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Emerald"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="100"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B940000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9100000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9200000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Crown"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="125"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B950000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9125000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9250000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="President"
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="150"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B960000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9150000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9300000"
+                            android:textAppearance="?attr/textAppearanceBody2" />
+
+                    </TableRow>
+
+                </TableLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Level Achievement Bonus"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='Customers who achieve new levels during their association with the
+company and business tenure are entitled for this bonus. All information about increase in level and
+bonus transactions is conveyed via Email or SMS.'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Total IDs"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Plan A"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Plan B"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="Plan C"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="50"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9500"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B91250"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B92500"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="100"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B91000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B92500"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B95000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="250"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B92500"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B96250"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B912500"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="500"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B95000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B912500"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B925000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="1000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B910000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B925000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B950000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="2500"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B925000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B962500"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9125000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="5000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B960000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9150000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_table"
+                            android:gravity="center"
+                            android:text="\u20B9300000"
+                            android:textAppearance="?attr/textAppearanceBody1" />
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Important Points"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="a. Customer ID: "
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text='a. The Customer ID gets deactivated automatically if the member is not actively participating in
+the program for 90 days. \n
+b. In case the member is performing well and meeting the minimum requirements, then his/her
+ID gets renewed automatically after 90 days. \n
+c. In case of deactivation of ID, it is not deleted. It is simply deactivated and all the
+corresponding the levels associated with the ID gets shifted by one level.'
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="b. Income: "
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="a. The overall income (referral and business income collectively) is calculated on monthly basis
+and paid on the 2nd of every month. \n
+b. If you want early payout, you can request for that. Minimum payout considered is of Rs. 500
+which is processed and disbursed in 48 hours. \n
+c. All details of your referral and business income will be timely updated from company's end every month. You will be receiving bank transfer data along with reference number and date as part of the data."
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="c. Refund: "
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="a. In case any customer fails to get any referral within 90 days, his/her Customer ID is
+deactivated and the money is refunded. \n
+b. The customer will get refund only if he/she has not earned a minimum or greater than his/her
+investment. In case a customer has invested Rs. 2000, then he/she is eligible for refund only
+if he/she has not earned minimum or greater than Rs. 2000. Else it will be forfeited. \n
+c. In cases of partial income, for example, if after investing Rs. 2000, he/she earns Rs. 1000,
+then after 90 days of non-active status, he/she will receive a refund of remaining Rs. 1000. \n
+Our program structure and refund policy ensures that in no circumstances shall any of its customers
+suffer loss over his/her investment.
+"
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="d. Advance Income: "
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="We are having a very professionally formulated loan policy for our customers. In case of your
+emergency needs, you can avail this facility from our end. Go through the following criteria, terms
+and conditions and procedures to know about our loan policy more closely."
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Eligibility Criteria:"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="1.	To be eligible for the advance income, you must be an active member generating business equivalent to the advance Income amount you are seeing for. \n
+2.	Your advance income amount eligibility will be ascertained from the volume of business generated. We will consider the last three months from the date of the request for your advance income. Then we will calculate the average monthly income you have earned in these last three months in association with us. \n
+3.	After calculating your average monthly income of three months, we multiply the average monthly income multiply by 4 times. The amount which results is the advance income amount you can avail from our side. \n
+4.	Minimum monthly Average Income required to be eligible for an advance income amount is Rs. 2500, Rs. 6250, and Rs. 12,500 for Plan A, Plan B, Plan C respectively. \n\n
+For example, you applied for advance Income in the month of April. We will calculate your average monthly income taking into consideration the months of January, February, and March. If your monthly income is Rs. 3000, Rs. 2500 and Rs. 3500 respectively for January, February and March, then your average monthly income is (Rs. 3000 + Rs. 2500 + Rs. 3500)/3 = Rs. 3000.\n
+As we have figured out your average monthly income, we will calculate your advance income amount , eligibility amount four times. For Average Monthly Income of Rs. 3000, your Advance Income amount can be up to Rs. 3000 x 4 = Rs. 12000
+
+5.	We provide a minimum Advance Income amount of Rs. 10000. Rs. 25000, Rs. 50000 for Plan A, Plan B, and Plan C, Respectively. Hence, your average monthly income in the last three months must be equal to or greater than Rs. 2500 for Plan A.
+"
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="To meet up the needs at the time of emergency, we provide Advance Income Amount to our customers under the following conditions: \n
+
+a.	Minimum Advance Income amount is Rs. 10000. \n
+b.	Maximum Advance Income amount can range up to Rs. 2,50,000 depending upon your business volume.\n
+c.	You are eligible for Advance Income only after you have successfully worked for a duration of 4 months with an earning equal to greater than the amount you want advance income for. \n
+d.	The Advance Income amount is considered to be four times the earning of the customer in the last three prior months from the date of request. \n
+e.	The Advance Income amount we provide is of 0% interest. \n
+f.	The Advance Income amount is deducted and settled from the monthly payout of the customer. \n
+g.	A customer will be again eligible for Advance Income after 12 months from the month of completion of the current Advance Income amount. \n
+"
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Advance Income Recovery Methods"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="As the company is providing you an unsecured advance income amount  on just the basis of your performance in association with us, a few steps which company takes at the time of disbursal of your advance Income amount are as follows: \n
+a.	As soon as the advance income amount gets credited to your account, the payout option from your wallet associated with the company gets disabled. \n
+b.	Any sort of income that can be in the form of referral, monthly, or bonus will be adjusted with the amount of the advance income taken by you. \n
+c.	As soon as your entire amount is adjusted, your wallet is set free from our control and you can use it according to your wish. \n \n
+For any kind of help, send us an email at s_purandhar@yahoo.com \n \n
+Wish you Happy Earnings &amp; Savings \n
+Assuring you of our best services at all times\n\n
+Best Regards \n
+PS Marketing Team \n
+"
+                    android:textAppearance="?attr/textAppearanceBody2" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

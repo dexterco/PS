@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <androidx.appcompat.widget.Toolbar
+           android:id="@+id/toolbar"
+           android:layout_width="match_parent"
+           android:layout_height="?attr/actionBarSize"
+           android:background="@color/teal_700"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:title="Refer and Earn"
+           app:titleTextColor="@color/white" />
+
+       <ScrollView
+           android:fillViewport="true"
+           android:paddingBottom="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:layout_marginTop="8dp"
+                   android:src="@drawable/register" />
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:layout_marginTop="8dp"
+                   android:src="@drawable/useracc" />
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:layout_marginTop="8dp"
+                   android:src="@drawable/income" />
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:layout_marginTop="8dp"
+                   android:src="@drawable/reffralincome" />
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:layout_marginTop="8dp"
+                   android:src="@drawable/mothicm" />
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:layout_marginTop="8dp"
+                   android:src="@drawable/bonus" />
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:layout_marginTop="8dp"
+                   android:src="@drawable/monthlybonus" />
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:layout_marginTop="8dp"
+                   android:src="@drawable/levelavi" />
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:layout_marginTop="8dp"
+                   android:src="@drawable/advnceicm" />
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:layout_marginTop="8dp"
+                   android:src="@drawable/advmi" />
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:layout_marginTop="8dp"
+                   android:src="@drawable/refud" />
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:layout_marginTop="8dp"
+                   android:src="@drawable/deacti" />
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:layout_marginTop="8dp"
+                   android:src="@drawable/servi" />
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:layout_marginTop="8dp"
+                   android:src="@drawable/icmpro" />
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="300dp"
+                   android:layout_marginTop="8dp"
+                   android:src="@drawable/incmprofive" />
+
+           </LinearLayout>
+       </ScrollView>
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

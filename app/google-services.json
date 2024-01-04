@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "684371763730",
+    "project_id": "psapp-699b8",
+    "storage_bucket": "psapp-699b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684371763730:android:e044dbc2aedf22eb736ecb",
+        "android_client_info": {
+          "package_name": "com.codingbhasha.ps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684371763730-9l5fctvlfagvjclkar6r2ibb3be3lcg6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codingbhasha.ps",
+            "certificate_hash": "f7f721327334d21cfd2aee9782e6e5f73fbdd36e"
+          }
+        },
+        {
+          "client_id": "684371763730-974hu9v8kk81nbc8fi5ov5gbotlo8jqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADBFSbh2EH-IwfFzbu6UQFyXiRetZYvFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684371763730-974hu9v8kk81nbc8fi5ov5gbotlo8jqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
